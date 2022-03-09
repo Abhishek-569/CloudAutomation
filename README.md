@@ -37,9 +37,47 @@ An Amazon EBS volume is a durable, block-level storage device that you can attac
 The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards.
 The Apache HTTP Server is a project of The Apache Software Foundation
 
-#STEP BY STEP GUIDE OF PROJECT
-##STEP 1. LAUNCH EC2 INSTANCE ON AWS 
+# STEP BY STEP GUIDE OF PROJECT
+## STEP 1. LAUNCH EC2 INSTANCE ON AWS 
 ![image](https://user-images.githubusercontent.com/64806938/157461965-db6baa21-2985-4401-bfd0-0e9b29fd68d3.png)
+
+## STEP 2. SET UP A EBS AS A BACKUP 
+![image](https://user-images.githubusercontent.com/64806938/157469320-f576790f-5d1a-4ce9-b670-d315f9974abd.png)
+
+## STEP 4. MOUNTING EBS as backup to /var/www/html/ 
+![image](https://user-images.githubusercontent.com/64806938/157469477-1d48d66b-0674-4ec7-b3d2-74677dac9975.png)
+
+## STEP 5.SET THE INBOUND TRAFFIC FOR SECURITY GROUP in AWS 
+![image](https://user-images.githubusercontent.com/64806938/157469685-1e1771d0-ea8c-413b-9885-d2bdbbd37d28.png)
+
+## STEP 6. EXECUTING REMOTE COMMAND TO AWS EC2 INSTANCES TO INSTALL:
+HTTPD APACHE SERVER
+GIT
+PHP
+![image](https://user-images.githubusercontent.com/64806938/157469881-2b5112e9-519f-4c9f-8a67-b152cb864f6b.png)
+
+## STEP 7. Copying data from github to /var/www/html/
+![image](https://user-images.githubusercontent.com/64806938/157470059-e9669ab5-c850-422d-a666-9ad2cb85cb68.png)
+
+## STEP 8. COPYING PUBLIC IP IN TEXT DOUMENT 
+![image](https://user-images.githubusercontent.com/64806938/157470245-c90aed6d-6336-4fc8-9e41-94177b7b70d4.png)
+![image](https://user-images.githubusercontent.com/64806938/157470265-6b352b93-3037-4061-90bf-30f97db3c734.png)
+
+## STEP 9. Opening website in local browser
+![image](https://user-images.githubusercontent.com/64806938/157470449-bf502a84-5acd-4f3b-9654-801ea37278a3.png)
+![image](https://user-images.githubusercontent.com/64806938/157470480-abf939f9-b9af-4069-bb84-67093c85c1c3.png)
+
+## To end all setup in 1 command 
+![image](https://user-images.githubusercontent.com/64806938/157470590-181b623c-5a2c-44c2-9d87-bfc376d57d8a.png)
+![image](https://user-images.githubusercontent.com/64806938/157470621-bf476f0b-5291-4498-9019-11d8707bd739.png)
+
+
+
+
+
+
+
+
 
 
 
