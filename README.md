@@ -72,6 +72,8 @@ PHP
 ![image](https://user-images.githubusercontent.com/64806938/157470621-bf476f0b-5291-4498-9019-11d8707bd739.png)
 
 
+## What I learned from this project
+This project has taught me what is Infrastruture as a code and how to deploy it on Terraform. It automates the workflow with minimal manual supervision and also destroying the whole setup is also easy with 1 command only.It was a great learning experience from the  difficulties  faced during the making of this project.
 
 
 
